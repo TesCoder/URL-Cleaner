@@ -10,6 +10,8 @@ from tkinter import messagebox
 from openpyxl.utils.exceptions import InvalidFileException  # handles situation when no file is selected
 import os
 
+input("requires Tkinter. Prese <Enter> to continue...")
+
 root = Tk()
 
 root.geometry('604x360+100+100')
